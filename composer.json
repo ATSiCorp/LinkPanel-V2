@@ -1,0 +1,109 @@
+{
+    "name": "linkpanel/panel",
+    "description": "Link Panel is a comprehensive server management platform that offers robust server administration, including backup, multi-server control, transfer, and website publishing capabilities. ",
+    "type": "project",
+    "keywords": [
+        "Link Panel",
+        "Server Management",
+        "Cloud Management",
+        "Site Management",
+        "Laravel Site Management"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anjas Amar Pradana",
+            "email": "atsidev.io@gmail.com"
+        },
+        {
+            "name": "Anjas Amar Pradana",
+            "email": "atsidev.io@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "visiosoft/streams-platform": "dev-fatih2",
+        "anomaly/default_authenticator-extension": "2.2.x-dev",
+        "anomaly/private_storage_adapter-extension": "1.2.x-dev",
+
+        "anomaly/relationship-field_type": "2.3.x-dev",
+        "anomaly/polymorphic-field_type": "~2.1.0",
+        "anomaly/checkboxes-field_type": "2.5.x-dev",
+        "anomaly/datetime-field_type": "~3.0.0",
+        "anomaly/multiple-field_type": "2.4.x-dev",
+        "anomaly/textarea-field_type": "~2.1.0",
+        "anomaly/boolean-field_type": "~2.3.0",
+        "anomaly/integer-field_type": "~2.1.0",
+        "anomaly/select-field_type": "2.4.x-dev",
+        "anomaly/email-field_type": "~2.1.0",
+        "anomaly/tags-field_type": "2.5.x-dev",
+        "anomaly/slug-field_type": "~2.1.0",
+        "anomaly/text-field_type": "~2.2.0",
+        "anomaly/editor-field_type": "~3.1.0",
+        "anomaly/addon-field_type": "2.3.x-dev",
+        "anomaly/url-field_type": "~2.2.0",
+        "anomaly/wysiwyg-field_type": "3.2.x-dev",
+
+        "linkpanel/configuration-module": "3.0.x-dev",
+        "linkpanel/dashboard-module": "2.3.x-dev",
+        "linkpanel/settings-module": "3.0.x-dev",
+        "linkpanel/users-module": "dev-twig3",
+        "linkpanel/files-module": "2.7.x-dev",
+        "linkpanel/helper-plugin": "3.0.x-dev",
+
+        "composer/composer": "2.*",
+
+        "linkpanel/server-module":"^1.0",
+        "linkpanel/transfer-module": "^1.0",
+        "linkpanel/linkpaneldash-theme": "dev-fatih",
+        "linkpanel/linkpanel-theme": "^1.0",
+        "linkpanel/site-module": "^1.0",
+        "linkpanel/recipes-module": "^1.0",
+        "linkpanel/api-extension": "^1.0"
+    },
+    "replace": {
+        "anomaly/streams-platform": "*"
+    },
+    "require-dev": {},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.pyrocms.com"
+        },
+        {
+            "type": "composer",
+            "url": "https://community.pyrocms.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
