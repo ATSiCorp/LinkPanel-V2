@@ -29,6 +29,6 @@ Manage, backup multiple servers and sites in 1 panel.
 
 Just simply run this command on your server: (latest version)
 ```bash
-`wget -O - raw.githubusercontent.com/ATSiCorp/LinkPanel-V2/main/install.sh | bash` 
+wget -O - raw.githubusercontent.com/ATSiCorp/LinkPanel-V2/main/install.sh | bash
 ```
 Used with PHP & Laravel using Openclassify. 
