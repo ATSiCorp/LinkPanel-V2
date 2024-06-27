@@ -1,7 +1,7 @@
 
 ![image](https://raw.githubusercontent.com/ATSiCorp/LinkPanel/main/utility/design/banner.png)
 
-# LINKPANELPanel
+# LINKPANEL
 
 It's lightweight only the components you need, aiming for simplicity and simplicity.
 
