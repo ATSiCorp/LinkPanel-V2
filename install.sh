@@ -35,11 +35,11 @@ bgpurple=$(tput setab 5)
 clear
 echo "${green}${bold}"
 echo "
-        ____  _   _ ____  _____
-       |  _ \| | | |  _ \| ____|
-       | |_) | | | | |_) |  _|
-       |  __/| |_| |  _ <| |___
-       |_|    \___/|_| \_\_____|"
+LL       II NNNNNNNN  KK  KK PPPPPPPP    A     NNNNNNNNN EEEEEEEE LL
+LL       II NN     NN KK KK  PP    PP   AAA    NN     NN EE       LL
+LL       II NN     NN KKKK   PPPPPPPP  AA AA   NN     NN EEEEEE   LL
+LL       II NN     NN KK KK  PP       AAAAAAA  NN     NN EE       LL
+LLLLLLLL II NN     NN KK  KK PP      AA     AA NN     NN EEEEEEEE LLLLLLL"
 echo ""
 echo "Installation has been started... Hold on!"
 echo "${reset}"
@@ -134,11 +134,11 @@ sudo touch $WELCOME
 sudo cat > "$WELCOME" <<EOF
 
 
-        ____  _   _ ____  _____
-       |  _ \| | | |  _ \| ____|
-       | |_) | | | | |_) |  _|
-       |  __/| |_| |  _ <| |___
-       |_|    \___/|_| \_\_____|
+    LL       II NNNNNNNN  KK  KK PPPPPPPP    A     NNNNNNNNN EEEEEEEE LL
+    LL       II NN     NN KK KK  PP    PP   AAA    NN     NN EE       LL
+    LL       II NN     NN KKKK   PPPPPPPP  AA AA   NN     NN EEEEEE   LL
+    LL       II NN     NN KK KK  PP       AAAAAAA  NN     NN EE       LL
+    LLLLLLLL II NN     NN KK  KK PP      AA     AA NN     NN EEEEEEEE LLLLLLL
        
 EOF
 
